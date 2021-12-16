@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net46</TargetFramework>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="RagePluginHook">
+      <HintPath>..\RagePluginHookSDK.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
